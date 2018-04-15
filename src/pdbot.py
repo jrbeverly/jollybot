@@ -1,14 +1,12 @@
-###############################################################
-# ABSTRACT BASE CLASS FOR PDBOTS
-# A PDBot has two methods:
-# get_play is called to get the bots next play
-# make_play is called to tell teh bot what the opponent played
-###############################################################
+'''
+A base class for a Prisoners' Dilemma A.I. bot.
+'''
 from abc import ABCMeta, abstractmethod
 
+
 class PDBot:
-    __metaclass__=ABCMeta
-    
+    __metaclass__ = ABCMeta
+
     @abstractmethod
     def init(self):
         pass
@@ -20,6 +18,3 @@ class PDBot:
     @abstractmethod
     def make_play(self, opponent_play):
         pass
-
-
-
