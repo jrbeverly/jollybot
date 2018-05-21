@@ -14,8 +14,7 @@ if __name__ == "__main__":
         print("game "+str(iteration)+": JollyBot is thinking ...")
         agent_action = pd_agent.get_play()
 
-        client_action = input(
-            "your action (give 2 or take 1, anything else stops play): ")
+        client_action = input("your action (give 2 or take 1, anything else stops play): ")
 
         print("JollyBot's action is to: ", agent_action)
 
