@@ -1,0 +1,24 @@
+{
+  "slug": "Jollybot",
+  "namespace": "jrbeverly",
+  "status": "archived",
+  "icon": "icon.svg",
+  "license": {
+    "type": "MIT",
+    "content": "Jonathan Beverly <jrbeverly>"
+  },
+  "topics": [
+    "ai",
+    "simple",
+    "jabberwacky",
+    "bot",
+    "prision",
+    "dilemma",
+    "strategy"
+  ],
+  "languages": [
+    "Dockerfile",
+    "Python",
+    "Shell"
+  ]
+}
