@@ -1,0 +1,20 @@
+slug: jollybot
+description: A Prisoners' Dilemma A.I. bot performing an 'Olive Branch' strategy focusing on attempting to cooperate whenever possible.
+project: uwaterloo
+namespace:
+status: archived
+icon: icon.svg
+license:
+  type: MIT
+  content: Jonathan Beverly <jrbeverly>
+  year: 2018
+topics: |-
+  [
+    "ai",
+    "simple",
+    "jabberwacky",
+    "bot",
+    "prision",
+    "dilemma",
+    "strategy"
+  ]
